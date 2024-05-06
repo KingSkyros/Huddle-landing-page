@@ -75,3 +75,22 @@ p{
     background-color: var(--hover-color);
     color: white;
 }
+
+.icons{
+    display: flex;
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: 25rem;
+}
+
+.twit,.insta,.face{
+    margin: 8px;
+    width: 23%;
+    border: none 2px solid;
+    border-radius: 50%;
+    padding: 1%;
+}
+
+.twit:hover ,.insta:hover, .face:hover{
+    border: var(--hover-color) solid 2px;
+}
